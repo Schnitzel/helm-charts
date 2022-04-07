@@ -1,5 +1,9 @@
 # Datadog changelog
 
+## 2.31.1
+
+* Remove usage of `concat` to restore compatibility with Helm2.
+
 ## 2.31.0
 
 * Add `datadog.prometheusScrape.version` parameter to choose the version of the openmetrics check that the Prometheus auto-discovery should instantiate by default.
